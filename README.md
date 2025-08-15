@@ -33,7 +33,7 @@ ls // hello.o hello.s
 3. Link your program (not need to explain right now, just do it)
 
 ```bash
-ld -arch arm64 \                                                      ✔ │  2m 35s │ 00:45:58
+ld -arch arm64 \
       -o hello hello.o \
       -e _start \
       -macos_version_min 14.0 \
